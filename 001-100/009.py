@@ -1,4 +1,4 @@
-"""2942. Find Words Containing Character"""
+"""Find Words Containing Character"""
 
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
@@ -6,4 +6,5 @@ class Solution:
         for i in range(len(words)):
             if x in words[i]:
                 result.append(i)
+
         return result
