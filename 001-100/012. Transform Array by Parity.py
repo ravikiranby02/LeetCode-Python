@@ -1,5 +1,3 @@
-"""Transform Array by Parity"""
-
 class Solution:
     def transformArray(self, nums: List[int]) -> List[int]:
         result = []
@@ -9,4 +7,5 @@ class Solution:
             else:
                 result.append(1)
         result.sort()
+
         return result
