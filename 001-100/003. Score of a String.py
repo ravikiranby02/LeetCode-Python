@@ -1,5 +1,3 @@
-"""Score of a String"""
-
 class Solution:
     def scoreOfString(self, s: str) -> int:
         score = 0
