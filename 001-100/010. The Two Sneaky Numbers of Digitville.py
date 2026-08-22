@@ -1,5 +1,3 @@
-"""The Two Sneaky Numbers of Digitville"""
-
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
         nums.sort()
