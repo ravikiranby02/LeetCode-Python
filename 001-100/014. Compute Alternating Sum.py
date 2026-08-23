@@ -1,5 +1,3 @@
-"""Compute Alternating Sum"""
-
 class Solution:
     def alternatingSum(self, nums: List[int]) -> int:
         total = 0
