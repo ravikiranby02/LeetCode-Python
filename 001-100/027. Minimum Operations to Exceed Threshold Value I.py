@@ -5,4 +5,5 @@ class Solution:
         for num in nums:
             if num < k:
                 count += 1
+                
         return count
