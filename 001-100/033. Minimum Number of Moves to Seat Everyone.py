@@ -7,5 +7,4 @@ class Solution:
         
         for i in range(len(seats)):
             total_moves += abs(seats[i] - students[i])
-        
         return total_moves
