@@ -11,11 +11,9 @@ class Solution:
         total = 0
         
         for i in range(n):
-            start = max(0, i - nums[i])
-            
+            start = max(0, i - nums[i])         
             if start > 0:
                 total += prefix[i] - prefix[start - 1]
             else:
                 total += prefix[i]
-        
         return total
