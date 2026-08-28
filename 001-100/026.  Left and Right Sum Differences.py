@@ -8,5 +8,4 @@ class Solution:
             rightSum = totalSum - leftSum - num
             result.append(abs(leftSum - rightSum))
             leftSum += num
-        
         return result 
