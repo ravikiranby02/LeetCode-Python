@@ -6,5 +6,4 @@ class Solution:
             freq = nums[i]
             val = nums[i+1]
             result.extend([val] * freq)
-        
         return result
