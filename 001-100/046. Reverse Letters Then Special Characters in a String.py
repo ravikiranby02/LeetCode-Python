@@ -3,18 +3,15 @@ class Solution:
         letters = []
         specials = []
 
-        # Collect
         for c in s:
             if c.islower():
                 letters.append(c)
             else:
                 specials.append(c)
 
-        # Reverse
         letters.reverse()
         specials.reverse()
 
-        # Rebuild
         res = []
         i = j = 0
 
