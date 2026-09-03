@@ -1,5 +1,4 @@
 from math import isqrt
-
 class Solution:
     def pivotInteger(self, n: int) -> int:
         total = n * (n + 1) // 2
