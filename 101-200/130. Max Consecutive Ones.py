@@ -9,5 +9,4 @@ class Solution:
                 maximum = max(maximum, current)
             else:
                 current = 0
-
         return maximum
